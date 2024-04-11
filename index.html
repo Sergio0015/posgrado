@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="css/bootstrap.bundle.min.js"></script>
+  <title>Inicio | Posgrados</title>
+</head>
+<body>
+  <!-- Inicio del Header -->
+  <header>
+  <div class="navegacion container">
+    <div class="container d-flex align-items-center justify-content-space-between">
+      <div class="logo-container align-items-center">
+          <div class="logo">
+            <a href="index.php">
+              <img src="img/logo.png" alt="logo" width="160" height="100">
+            </a>
+          </div>
+          <div class="titulo">
+            <h1>Universidad Politécnica del Valle de México</h1>
+            <h4 class="subtitulo">Secretaría de Educación, Ciencia, Tecnología e Innovación</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Fin del Header -->
+
+  <!-- Inicio de la barra de navegación -->
+  <!-- <div class="menu container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="">Inicio</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Oferta Educativa</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Investigadores</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Repositorio</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Convocatorias</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Becas</a>
+            <span class="nav-link-hover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+            <span class="nav-link-hover"></span>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div> -->
+
+  <nav class="navbar navbar-expand-lg ">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Oferta Educativa</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Investigadores</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Repositorio</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Convocatorias</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Becas</a>
+          <span class="nav-link-hover"></span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+          <span class="nav-link-hover"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Fin de la barra de navegación -->
+
+  <!-- Inicio del carrusel -->
+  <div class="carrusel container">
+    <div id="carrusel" class="carousel slide carousel-fade py-1" data-bs-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/carru1.png" class="d-block w-100" alt="imagen1" width="1600" height="375">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carru2.png" class="d-block w-100" alt="imagen2" width="1600" height="375">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carru3.png" class="d-block w-100" alt="imagen3" width="1600" height="375">
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <br><br>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del Carrusel -->
+  <!-- Inicio del contenido principal -->
+  <main>
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="cmain card">
+              <img src="img/card1.png" alt="" class="card-img-top" width="400px" height="220px">
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                <a href="" class="btn">Más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="cmain card">
+              <img src="img/card2.png" alt="" class="card-img-top" width="400px" height="220px">
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                <a href="" class="btn">Más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="cmain card">
+              <img src="img/card3.png" alt="" class="card-img-top" width="400px" height="220px">
+              <div class="card-body">
+                <h5 class="card-title">Titulo</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+                <a href="" class="btn">Más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+ <!-- Fin del contenido principal -->
+  <!-- Inicio del footer -->
+  <footer class="text-center text-lg-start">
+    <div class="navegacion container">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contacto</h5>
+            <p class="foot">
+            Av. Mexiquense s/n esquina Av. Universidad Politécnica, Col. Villa Esmeralda, Tultitlán, C.P. 54910, Estado de México
+            <br><br>
+            55 5062 6460
+            <br><br>
+            informes@upvm.edu.mx
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Conoce el Estado</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://edomex.gob.mx/" class="refFoot">Portal del Gobierno del Estado de México</a>
+              </li>
+              <li>
+                <a href="https://www.secogem.gob.mx/SAM/sit_atn_mex.asp" class="refFoot">Quejas y denuncias</a>
+              </li>
+              <li>
+                <a href="https://cemer.edomex.gob.mx/" class="refFoot">Comisión Estatal de Mejora de Regulatoria</a>
+              </li>
+              <li>
+                <a href="https://www.ipomex.org.mx/ipo3/lgt/indice/upvm.web?token=03AFcWeA6bf9yHZa-5We0MX7INEb8djCuI_MtzTKWqZ_sBsjoReVRT_3Ls9gN0lDLildhq3J_ZmMgGqwZrHbr4jBciLGf_95_ga6cJUzGlDek6WpbC3LelkclkEIvrkAiO6k1Cc9ktwV0r6JsOV8uWZChiMrfkQEo1exDv_SABLvAy8Vv2xwjJ2Qt53Ih9sLdy5nRYkjqGkQTRhX0sWh5OASV9CzuzsXN6gaUfveRUZtn5HmQ8kHJ7OGtVjY4w7rcPySnE8wFgfc24_mVUhtIdAIeF_TuW_xhXoBS8OE5W31WhPQ_8qKwR3ls5rgNcgtbHlhdtOjaneqAATduieY4yPIndfAfKdyFlnmBfdnrXOaHn3vH9iufpNvNrPoaTGD0WTf2sYNgwKB3ZkyZmXCdiNor1KHxfX-AeCUC1Dz6qHrWV0kbLsU3BsZa0SFt3PRdRhQy9sQoZDmt8aEHNv3EGt5TupGcxLIABBtRnyTKOXk2oZMrWkaQl7kApDO0jIhL0hDiFffT5gjltegfns6zSCWSmrn1RFXTX0eLLHBHg5pVDjHslZqhTGUvPKwCdI86Or4etUPuhFyEHvCO-mPemXnoFq-Mw7HPLID4nRhNjqIAWN9c7hw39ox92HRlPYiXdgLWmTl8uYhzo5Vr9HQSSmzdSIVuvwwU_twtzCOOmDWGX548KYZqKzfsWn4PXJi03qQNKtWvvYBT2sQNE_gSIE1h_0UsA0EJVZA" class="refFoot">Información Pública de Oficio Mexiquense</a>
+              </li>
+              <li>
+                <a href="https://www.saimex.org.mx/saimex/ciudadano/login.page" class="refFoot">Solicitud de Información</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container col-lg-3 col-md-6 mb-4 mb-md-0">
+            <center>
+              <h5 class="text-uppercase">Redes</h5>
+            </center>
+            <ul class="redes">
+              <li class="icon-content">
+                <a href="https://www.facebook.com/UPVMoficial" aria-label="Facebook" data-social="Facebook">
+                  <div class="filled"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 320 512"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    xml:space="preserve"
+                  >
+                  <path d="M279.1 288l14.2-92.7h-88.9v-60.1c0-25.4 12.4-50.1 52.2-50.1h40.4V6.3S260.4 0 225.4 0c-73.2 0-121.1 44.4-121.1 124.7v70.6H22.9V288h81.4v224h100.2V288z"/></svg>
+
+                </a>
+                <div class="tooltip">Facebook</div>
+              </li>
+              <li class="icon-content">
+                <a href="https://twitter.com/UPVM_oficial" aria-label="X" data-social="X">
+                  <div class="filled"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 512 512"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    xml:space="preserve"
+                  >
+                  <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                </a>
+                <div class="tooltip">X</div>
+              </li>
+              <li class="icon-content">
+                <a href="https://www.instagram.com/upvmoficial/" aria-label="Instagram" data-social="instagram">
+                  <div class="filled"></div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                    xml:space="preserve"
+                  >
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" fill="currentColor"></path>
+                  </svg>
+                </a>
+                <div class="tooltip">Instagram</div>
+              </li>
+              <li class="icon-content">
+                <a href="https://www.youtube.com/@upvmoficial9983/" aria-label="Youtube" data-social="youtube">
+                  <div class="filled"></div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-youtube"
+                    viewBox="0 0 16 16"
+                    xml:space="preserve"
+                  >
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" fill="currentColor"></path>
+                  </svg>
+                </a>
+                <div class="tooltip">Youtube</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="copy container text-center p-2">
+    Algunos derechos reservados 2023. Gobierno del Estado de México
+    </div>
+  </footer>
+</html>
